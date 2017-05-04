@@ -97,12 +97,9 @@
 		E87ED14B1EBBD30400D43F72 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				E87ED14C1EBBD30400D43F72 /* AppDelegate.swift */,
+				E87ED17A1EBBD31D00D43F72 /* Other Things */,
 				E87ED14E1EBBD30400D43F72 /* ViewController.swift */,
 				E87ED1501EBBD30400D43F72 /* Main.storyboard */,
-				E87ED1531EBBD30400D43F72 /* Assets.xcassets */,
-				E87ED1551EBBD30400D43F72 /* LaunchScreen.storyboard */,
-				E87ED1581EBBD30400D43F72 /* Info.plist */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -123,6 +120,17 @@
 				E87ED16E1EBBD30400D43F72 /* Info.plist */,
 			);
 			path = CalculatorUITests;
+			sourceTree = "<group>";
+		};
+		E87ED17A1EBBD31D00D43F72 /* Other Things */ = {
+			isa = PBXGroup;
+			children = (
+				E87ED14C1EBBD30400D43F72 /* AppDelegate.swift */,
+				E87ED1531EBBD30400D43F72 /* Assets.xcassets */,
+				E87ED1551EBBD30400D43F72 /* LaunchScreen.storyboard */,
+				E87ED1581EBBD30400D43F72 /* Info.plist */,
+			);
+			name = "Other Things";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
