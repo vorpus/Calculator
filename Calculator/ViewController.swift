@@ -23,13 +23,22 @@ class ViewController: UIViewController {
         }
     }
     
+    var displayValue: Double {
+        get {
+            return Double(Display.text!)!
+        }
+        set {
+            Display.text = String(newValue)
+        }
+    }
+    
     @IBAction func ActionButton(_ sender: UIButton) {
         isUserTyping = false
         switch (sender.currentTitle!) {
         case "π":
-            Display.text = "3.141592"
+            displayValue = Double.pi
         case "√":
-            Display.text = "1"
+            displayValue = sqrt(displayValue)
         default:
             print("hi")
         }
